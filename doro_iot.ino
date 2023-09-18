@@ -5,11 +5,9 @@
 #include <ESP8266mDNS.h>
 #include <Servo.h>
 
-const char* ssid = "SK_WiFiGIGACB18_2.4G";
-const char* password = "1806028504";
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 
-//const char* ssid = "iPhone (6)";
-//const char* password = "junseop619";
 WiFiServer server(80);
 
 //servo
