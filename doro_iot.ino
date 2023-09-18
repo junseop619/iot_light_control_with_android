@@ -13,7 +13,6 @@ WiFiServer server(80);
 //servo
 Servo servo;
 int angle = 90; //servo mortor 초기 각도값
-String switchState = "off";
 
 void setup() {
   
